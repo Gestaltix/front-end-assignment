@@ -1,0 +1,124 @@
+.CampaignListItem {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 2vw;
+    border-bottom: 1px solid lightgray;
+    padding: 1.8vh;
+    opacity: .7;
+}
+
+.CampaignListItem:hover {
+    opacity: 1
+}
+
+.CampaignListItemFirst {
+    display: flex;
+    align-items: center;
+}
+
+.CampaignListItemImage {
+    width: 4vw;
+    height: 4vw;
+}
+
+.CampaignListItemInfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.CampaignListItemName {
+    color: #4A4A4A;
+    font-weight: 500;
+    font-size: 2vh;
+    margin-bottom: 1vh;
+}
+
+.CampaignListItemCompanyName {
+    color: #6E7378;
+    text-transform: uppercase;
+    font-size: 1.6vh;
+}
+
+.CampaignListItemDate {
+    color: #6E7378;
+    font-size: 1.6vh;
+}
+
+.CampaignListItemSecond {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.CampaignListItemSecond > * {
+    margin-right: 4vw;
+}
+
+.CampaignListItemStats {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    width: 5vw;
+}
+
+.CampaignListItemStats :first-child {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.CampaignListItemStats :first-child :first-child {
+    font-size: 2vw;
+}
+
+.CampaignListItemStats :first-child :nth-child(2) {
+    color: #6E7378
+}
+
+.CampaignListItemStats :nth-child(2) {
+    color: #7DD322
+}
+
+.CampaignListItemStatusPaused {
+    border: 2.5px solid #E94336;
+    border-radius: 50px;
+    padding: 9px 0;
+    width: 6vw;
+    font-size: 1.6vh;
+    text-align: center;
+    color: #E94336;
+    font-weight: 700;
+}
+
+.CampaignListItemStatusPublished {
+    border: 2.5px solid #1AD3B4;
+    border-radius: 50px;
+    padding: 9px 0;
+    width: 6vw;
+    font-size: 1.6vh;
+    text-align: center;
+    color: #1AD3B4;
+    font-weight: 700;
+}
+
+.CampaignListItemStatusReviewing {
+    border: 2.5px solid #F0CC18;
+    border-radius: 50px;
+    padding: 9px 0;
+    width: 6vw;
+    font-size: 1.6vh;
+    text-align: center;
+    color: #F0CC18;
+    font-weight: 700;
+}
+
+.CampaignListItemMediums {
+    display: flex;
+    justify-content: space-around;
+    width: 10vw;
+}
+
+.CampaignListItemMediums img {
+    height: 3.6vh;
+}

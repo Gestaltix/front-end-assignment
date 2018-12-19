@@ -1,0 +1,28 @@
+.SideBarTab {
+    height: 7vh;
+    display: flex;
+    border-bottom: 1px solid lightgrey;
+    align-items: center;
+    opacity: .4
+}
+
+.SideBarTab:hover {
+    opacity: 1;
+}
+
+.SideBarTab > * {
+    padding-left: 2vw;
+}
+
+.Thumbnail {
+    width: 25px;
+    height: 25px;
+}
+
+.Active {
+    opacity: 1;
+}
+
+.SideBarTab :last-child {
+    font-weight: 670;
+}

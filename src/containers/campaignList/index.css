@@ -1,0 +1,36 @@
+.CampaignList {
+    width: 85vw;
+}
+
+.CampaignListButton {
+    margin: 0 auto;
+    height: 5vh;
+    width: 13vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: bold;
+    margin-top: 3vh;
+    border-radius: 10px;
+    font-size: 2vh;
+    background: linear-gradient(135deg, #307BDA,#1DD0B6);
+}
+
+.CampaignListButton:hover {
+    background: linear-gradient(135deg, #309BDb,#3DD0B6);
+}
+
+.CopyrightStuff {
+    color: #9B9B9B;
+    border-top: 2px solid #9B9B9B;
+    margin: 4vh auto;
+    padding: 1vh;
+    text-align: center;
+    font-size: 1.6vh;
+    width: 30.5vw;
+}
+
+.CompanyName {
+    font-weight: bold;
+}
