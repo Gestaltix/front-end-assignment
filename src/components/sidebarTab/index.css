@@ -3,7 +3,8 @@
     display: flex;
     border-bottom: 1px solid lightgrey;
     align-items: center;
-    opacity: .4
+    opacity: .4;
+    font-weight: 670;
 }
 
 .SideBarTab:hover {
@@ -21,8 +22,4 @@
 
 .Active {
     opacity: 1;
-}
-
-.SideBarTab :last-child {
-    font-weight: 670;
 }

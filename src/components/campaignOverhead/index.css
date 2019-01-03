@@ -1,0 +1,15 @@
+.CampaignOverhead {
+    padding: 3vh 3vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+.CampaignOverheadRight {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.CampaignOverheadRight > * {
+    margin-right: 2vw;
+}

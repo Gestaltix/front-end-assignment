@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Switch, Route } from 'react-router-dom';
 import View1 from './view1';
+import View2 from './view2';
 import './index.css';
 
 class App extends Component {
@@ -8,6 +9,7 @@ class App extends Component {
     return (
       <Switch>
         <Route exact path='/' component={View1} />
+        <Route exact path='/:id' component={View2} />
       </Switch>
     );
   }

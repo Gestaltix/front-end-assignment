@@ -2,15 +2,16 @@ import React, { Component } from 'react';
 import TopBar from '../../components/topbar';
 import SideBar from '../../components/sidebar';
 import CampaignList from '../campaignList';
-import './index.css';
+
+// container for view 1
 
 class View1 extends Component {
     render() {
         return <div>
             <TopBar />
-            <div className='View1'>
+            <div className='Flex'>
                 <SideBar />
-                <CampaignList />
+                <CampaignList history={this.props.history} />
             </div>
         </div>
     }

@@ -1,0 +1,17 @@
+.Tabs {
+    display: flex;
+    justify-content: space-between;
+}
+
+.Tabs > * {
+    font-size: 2.2vh;
+    font-weight: 500;
+    opacity: .4;
+    padding-bottom: .3vh;
+    margin-right: 3vw;
+}
+
+.TabSelected, .Tabs > *:hover {
+    border-bottom: 4px solid #1AD3B4;
+    opacity: 1;
+}

@@ -1,0 +1,9 @@
+.Mediums {
+    display: flex;
+    justify-content: space-around;
+    width: 10vw;
+}
+  
+.Mediums img {
+    height: 3.6vh;
+}

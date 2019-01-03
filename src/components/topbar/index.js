@@ -3,6 +3,8 @@ import './index.css';
 import logo from '../../assets/img/nanos/logo.png'
 import topBarButtons from '../../assets/img/nanos/topBarButtons.png'
 
+// this is the top bar seen in both views
+
 class TopBar extends Component {
     render() {
         return <div className='TopBar'>

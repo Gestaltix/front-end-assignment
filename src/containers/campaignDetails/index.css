@@ -1,0 +1,90 @@
+.CampaignDetails {
+    width: 85vw;
+}
+
+.CampaignDetailsInfo {
+    margin-left: 3vw;
+}
+
+.CampaignDetailsName {
+    font-weight: 620;
+    margin: 0;
+}
+
+.CampaignDetailsUnderName {
+    font-size: 1.8vh;
+    color: #6E7378;
+}
+
+.CampaignDetailsDate {
+    font-weight: 600;
+}
+
+.CampaignDetailsBasic {
+    margin: 0 2.5vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.CampaignDetailsImg {
+    height: 15vh;
+}
+
+.YourCustomers {
+    font-size: 2.2vh;
+    border-bottom: 2px solid #A4A4A4;
+    width: 65vw;
+    font-weight: 450;
+}
+
+.CampaignDetailsBasicInfo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.CampaignDetailsBasicInfo > * {
+    margin-top: 3vh;
+}
+
+.CampaignDetailsBasicInfo * :first-child :first-child {
+    font-size: 8vh
+}
+
+.CampaignDetailsBasicInfo * :first-child :nth-child(2) {
+    font-size: 1.7vh;
+    font-weight: 150;
+}
+
+.CampaignDetailsBasicInfo * :nth-child(2) {
+    font-size: 2.5vh;
+    font-weight: 600;
+}
+
+.CampaignDetailsBasicBudget {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end; 
+    margin: 0;
+    align-self: flex-start;
+}
+
+.CampaignDetailsBasicBudget :first-child, .CampaignDetailsBasicBudget :nth-child(3) {
+    font-size: 4vh;
+}
+
+.CampaignDetailsBasicBudget :nth-child(2), .CampaignDetailsBasicBudget :last-child {
+    font-size: 1.7vh;
+    font-weight: 100;
+    color: #6E7378;
+}
+
+.CampiagnDetailsBreakdown {
+    font-size: 2.2vh;
+    border-bottom: 2px solid #A4A4A4;
+    width: 80vw;
+    font-weight: 450;
+    margin: 0 2.5vw;
+    margin-top: 5vh;
+}
