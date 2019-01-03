@@ -2,7 +2,8 @@ import React, { Component } from 'react';
 import './index.css';
 
 const f = new Intl.NumberFormat('en-US', {
-    minimumFractionDigits: 2
+    minimumIntegerDigits: 2,
+    maximumSignificantDigits: 2,
 })
 
 // This is a simple way to make the common format of several campaign statistics in the assignment

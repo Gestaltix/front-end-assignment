@@ -2,6 +2,8 @@
 
 This assignment is a representation of my experience with React.
 
+Even though I could have found a better time for it (Breaking it up before and after the holidays probably wasn't the best idea) I found it to be an interesting one. I used Redux and react router dom for this test.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
